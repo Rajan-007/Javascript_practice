@@ -33,4 +33,25 @@ console.log(d);
 d = "two"*10;
 console.log(d);
 
+//comparison operators
+
+age = 20;
+console.log(age>15);
+console.log(age<15);
+console.log(age ==15);
+console.log(age!=15);
+
+console.log(age =="20");
+console.log(age ==="20"); /* also compare with datatype */
+
+// logical operators
+
+a=100;
+console.log(a>50 && a%10==0)
+console.log(a>504 || a%10==0)
+
+// bitwise operators
+
+console.log(a>50 & a%10==0) /* 1 = true , 0 = false */
+
 
