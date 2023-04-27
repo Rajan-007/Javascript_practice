@@ -54,4 +54,14 @@ console.log(a>504 || a%10==0)
 
 console.log(a>50 & a%10==0) /* 1 = true , 0 = false */
 
+// user input
+
+// let Name = prompt("Enter your name");
+// console.log(" Hello", Name);
+
+//  let tickets = prompt("How many Tickets ?");
+//  console.log("You should pay",tickets * 20);
+//  console.log(typeof tickets);
+
+
 
