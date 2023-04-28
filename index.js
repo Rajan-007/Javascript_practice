@@ -81,3 +81,22 @@ let replace = str1.replace('Hello','Hi');
 console.log(replace);
 
 // uppercase
+
+console.log(str1.toUpperCase());
+
+// length
+
+console.log(str1.length);
+
+// str1.trim();
+// str1.trimEnd();
+
+
+// padEnd
+let bill = "Rs.10";
+console.log(bill.padEnd(7,'0'));
+
+// excercise
+
+let Name = "Rajan";
+console.log();
