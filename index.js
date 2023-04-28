@@ -63,5 +63,21 @@ console.log(a>50 & a%10==0) /* 1 = true , 0 = false */
 //  console.log("You should pay",tickets * 20);
 //  console.log(typeof tickets);
 
+let str1 = "Hello "
+let str2 = "Everyone "
+console.log(str1+str2);
+console.log(str1.concat(str2));
 
+// Partitioning string
 
+console.log(str2.slice(2,6));
+console.log(str2.slice(2));
+console.log(str2.slice(-8,-2));
+console.log(str2.slice(-4));
+
+// replace
+
+let replace = str1.replace('Hello','Hi');
+console.log(replace);
+
+// uppercase
